@@ -9,7 +9,7 @@ import type {
     SortingState,
     VisibilityState,
 } from '@tanstack/vue-table'
-import { valueUpdater } from '@/lib/utils'
+//import { valueUpdater } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
 import {
@@ -141,10 +141,10 @@ const columns: ColumnDef<Payment>[] = [
         cell: ({ row }) => {
             const payment = row.original
 
-            return h(DropdownAction, {
-                payment,
-                onExpand: row.toggleExpanded,
-            })
+            // return h(DropdownAction, {
+            //     payment,
+            //     onExpand: row.toggleExpanded,
+            // })
         },
     },
 ]
