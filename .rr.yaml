@@ -1,0 +1,11 @@
+version: "3"
+
+server:
+  command: "php "
+
+http:
+  address: 127.0.0.2:8080
+
+logs:
+  level: debug
+  mode: development
