@@ -4,7 +4,7 @@
     cd /home/eldar/avtopark82.ru
     set -e
     echo "Deploying..."
-    git pull origin main
+    git pull origin master
     php artisan down
     composer install --no-dev --optimize-autoloader
     php artisan migrate --force
