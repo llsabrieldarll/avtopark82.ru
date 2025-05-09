@@ -13,5 +13,6 @@
     php artisan route:cache
     php artisan view:cache
     php artisan up
+    npm run build
     echo "Done!"
 @endtask
