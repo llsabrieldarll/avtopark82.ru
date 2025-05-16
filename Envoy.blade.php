@@ -12,7 +12,8 @@
     php artisan event:cache
     php artisan route:cache
     php artisan view:cache
-    php artisan up
+    npm install
     npm run build
+    php artisan up
     echo "Done!"
 @endtask
